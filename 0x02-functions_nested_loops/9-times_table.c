@@ -2,7 +2,7 @@
 /**
 * times_table - prints the 9 times table, starting with 0
 * Description : prints the 9 times table
- */
+*/
 void times_table(void)
 {
 int i, j, k;
