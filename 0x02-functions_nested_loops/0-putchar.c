@@ -1,8 +1,8 @@
 #include "main.h"
 	/**
-	 *function main - print _putchar gives the value to _putchar
-	 *
-	 * Return: 0
+	 * main - Entry poin , print _putchar gives the value to _putchar
+	 *Description 'prints _putchar to stdio' 
+	 * Return: Always 0
 	 */
 
 
