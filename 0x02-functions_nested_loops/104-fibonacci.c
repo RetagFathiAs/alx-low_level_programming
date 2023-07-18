@@ -1,9 +1,7 @@
 #include <stdio.h>
 /**
-* main - fibonacci 
-*
+* main - fibonacci
 * Description : Purpose -inhardcode
-*
 * Return:  (Success)
 */
 int main(void)
