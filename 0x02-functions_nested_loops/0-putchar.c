@@ -3,6 +3,8 @@
 * main - Entry point
 * Description: 'prints _putchar to stdout'
 * Return - Always 0 (Success)
+*
+* Return : Always 0 for success
 */
 int main(void)
 {
