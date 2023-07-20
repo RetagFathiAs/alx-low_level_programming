@@ -2,7 +2,7 @@
 
 /**
  * _isupper - uppercase letters
- * @c: character to check
+ * @c: character to check capital or small
  *
  * Return: 0 or 1
  */
