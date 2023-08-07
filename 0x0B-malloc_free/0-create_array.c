@@ -15,9 +15,12 @@ if (size == 0)
 {
 return (NULL);
 }
+else
+{
 for (j = 0; j < size; j++)
 {
 arrays[j] = c;
 }
 return (arrays);
+}
 }
