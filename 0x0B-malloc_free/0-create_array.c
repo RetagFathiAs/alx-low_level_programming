@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * create_array : functins creates an array of chars, 
+ * create_array : functins creates an array of chars,
  * and initializes it with a specific char.
  * description : create_array - using pointers
  *@size: size of the array
@@ -20,5 +20,5 @@ for (j = 0; j < size; j++)
 {
 arrays[j] = c;
 }
-return (arrays);
+       return (arrays);
 }
