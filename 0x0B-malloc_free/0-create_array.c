@@ -9,18 +9,15 @@
  */
 char *create_array(unsigned int size, char c)
 {
-char *arrays = malloc(size * sizeof(char));
+char *arrays = (char *)malloc(size * sizeof(char));
 unsigned int j = 0;
 if (size == 0)
 {
 return (NULL);
 }
-else
-{
 for (j = 0; j < size; j++)
 {
 arrays[j] = c;
 }
 return (arrays);
-}
 }
