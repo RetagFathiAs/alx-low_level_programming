@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 /**
  * create_array : functins creates an array of chars, and initializes it with a specific char.
  *
@@ -7,16 +8,14 @@
 char *create_array(unsigned int size, char c)
 {
 char *arrays = malloc(size * sizeof(char));
+int j =0;
 if (size == 0)
 {
 return (NULL);
 }
-else 
+for (j = 0; j < size; j++)
 {
-for (int i = 0; i < size; i++)
-{
-arrays[i] = c;
+arrays[j] = c;
 }
 return (arrays);
-}
 }
