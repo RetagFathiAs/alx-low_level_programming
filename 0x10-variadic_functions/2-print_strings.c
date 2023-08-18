@@ -12,7 +12,8 @@ void print_strings(const char *separator, const unsigned int n, ...)
 va_list ap;
 char *p;
 unsigned int counter;
-va_start (ap, n);
+
+va_start(ap, n);
 if (separator == NULL)
 separator = "";
 for (counter = 0; counter < n; counter++)
