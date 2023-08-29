@@ -2,7 +2,7 @@
 
 /**
  * pop_listint - Deletes the head
- * @head: data 
+ * @head: data
  * Return: data n
  */
 int pop_listint(listint_t **head)
@@ -12,11 +12,9 @@ int pop_listint(listint_t **head)
 
 	if (*head == NULL)
 		return (return_value);
-
 	node = *head;
 	return_value = node->n;
 	*head = node->next;
 	free(node);
-
 	return (return_value);
 }
