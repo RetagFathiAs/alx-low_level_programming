@@ -34,7 +34,7 @@ listint_t **_ra(listint_t **list, size_t size, listint_t *new)
  */
 size_t free_listint_safe(listint_t **head)
 {
-	size_t counter, j = 0;
+	size_t j, counter = 0;
 	listint_t **list = NULL;
 	listint_t *next;
 
