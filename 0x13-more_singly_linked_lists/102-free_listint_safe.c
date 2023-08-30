@@ -28,7 +28,7 @@ listint_t **_ra(listint_t **list, size_t size, listint_t *new)
 }
 
 /**
- * free_listint_safe - frees 
+ * free_listint_safe - frees
  * @head: double pointer to the
  * Return: the nu the list
  */
