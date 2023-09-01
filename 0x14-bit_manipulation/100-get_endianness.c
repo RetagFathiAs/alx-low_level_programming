@@ -1,13 +1,13 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
- * get_endianness - sets the value of a bit to 1 at a given index
- * Return: 1 if little endian 0 if big endian
+ * get_endianness - sets the valuea given index
+ * Return: 1 if littleendian
  */
 int get_endianness(void)
 {
-	unsigned int i = 1;
-	char *j = (char *)&i;
+	unsigned int counter = 1;
+	char *j = (char *)&counter;
 
 	if (*j)
 		return (1);
