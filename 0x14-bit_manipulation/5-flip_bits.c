@@ -1,10 +1,10 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
- * flip_bits - Returns the number of bits  needed to be flipped
- * @n: type unsigned long int input pointer
- * @m: type unsigned long int position of unit
- * Return: flipped_bit
+ * flip_bits - Returns the nu to be flipped
+ * @n: type unsignut pointer
+ * @m: type unsigneon of unit
+ * Return: flip bit
  */
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
