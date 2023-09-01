@@ -1,8 +1,8 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
- * _right_pbin_mask - recursion function to print bit 0 (acts as a mask)
- * @n: type const unsigned long int
+ * _right_pbin_mask - recursion  (acts as a mask)
+ * @n: typeg int
  */
 
 void _right_pbin_mask(unsigned long int n)
@@ -14,9 +14,9 @@ void _right_pbin_mask(unsigned long int n)
 }
 
 /**
- * print_binary - prints the binary representation of a number
- * @n: type const unsigned long int
- * Return: binary number
+ * print_binary - priesentation of a number
+ * @n: type coong int
+ * Return: number
  */
 
 void print_binary(unsigned long int n)
