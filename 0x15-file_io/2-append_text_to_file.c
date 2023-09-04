@@ -11,10 +11,10 @@ int append_text_to_file(const char *filename, char *text_content)
 	int of = 0;
 	int wr = 0;
 	int counter;
-
+	
+	of = open(filename, O_RDWR | O_APPEND);
 	if (filename == NULL)
 		return (-1);
-	of = open(filename, O_RDWR | O_APPEND);
 	if (of == -1)
 		return (-1);
 	if (text_content == NULL)
