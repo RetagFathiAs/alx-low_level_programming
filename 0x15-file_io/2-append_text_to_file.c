@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * append_text_to_file - Function that creates a file
- * @filename: type char filename pointer of FD
- * @text_content: type char pointer of char
- * Return: -1 if NULL in FN, 1 on sucess
+ * append_text_to_file - Function a file
+ * @filename: type char filenam
+ * @text_content: type char
+ * Return: -1 if fail  1 on sucess
  */
 int append_text_to_file(const char *filename, char *text_content)
 {
@@ -12,7 +12,7 @@ int append_text_to_file(const char *filename, char *text_content)
 	int wr = 0;
 	int counter;
 
-	if (!filename)
+	if (filename == NULL)
 		return (-1);
 	of = open(filename, O_RDWR | O_APPEND);
 	if (of == -1)
