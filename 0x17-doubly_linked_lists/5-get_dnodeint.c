@@ -13,9 +13,7 @@ size_t count = 0;
 while (head != NULL)
 {
 if (count == index)
-{
-return (NULL);
-}
+break;
 count++;
 head = head->next;
 }
